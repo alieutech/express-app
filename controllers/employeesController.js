@@ -40,6 +40,6 @@ const deleteEmployee = (req, res) => {
     data.setEmlpoyees([filterArray, employee]);
     res.status(200).json({"success": `Employee ${data.employees} is deleted.`})
 
-}
+} 
 
 module.exports = { getAllEmployees, updateNewEmployee,  createNewEmployee, deleteEmployee };
