@@ -5,7 +5,7 @@ const usersDB = {
 const fsPromises = require('fs').promises;
 const path = require('path');
 const bcrypt = require('bcrypt');
-const { use } = require('../routes/api/employees');
+
 
 const registerNewUser = async (req, res) => {
     const { username, password } = req.body;

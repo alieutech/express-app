@@ -4,8 +4,7 @@ const PORT = process.env.PORT || 3330
 
 
 // build in middleware to handle urlencoded form data
-app.use(express.urlencoded({extended: false}))
-
+app.use(express.urlencoded({ extended: false }))
 // build in middleware for JSON
 app.use(express.json());
 
